@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form{
+            width: 250px;
+            height: 690px;
+            border: 1px solid;
+            text-align: center;
+            text-transform: capitalize;
+            background-color: rgb(182, 182, 166);
+        }
+    </style>
+</head>
+<body>
+   <form action="" method="post" target="_blank">
+   <div class="form">
+    <div>
+        <label for="name">enter your name</label>
+        <input type="text" placeholder="enter your name"id="name" name="user name" required>
+    </div>
+    <br>
+    <div>
+        <label for="tel">enter your phone number</label>
+        <input type="tel" maxlength="10" required id="tel" name="contact number" placeholder="enter mobile number" required>
+    </div>
+    <br>
+    <div>
+        <label for="age">enter your current age</label>
+        <input type="number" placeholder="enter your age" id="age" name="age" required>
+    </div>
+    <br>
+    <div>
+        <label for="email">ennter your email</label>
+        <input type="mail" placeholder="enter your email id" name="email" required>
+    </div>
+    <br>
+    <div>
+        <label for="password">enter your password</label>
+        <input type="password" placeholder="enter password" required name="password">
+    </div>
+    <br>
+    <div>
+        <label for="gender">select your gender</label>
+    </div>
+    <br>
+    <div>
+        <label for="gender">male</label>
+        <input type="radio" value="male" id="gender" name="gender" required>
+        <label for="female">female</label>
+        <input type="radio" value="female" required name="gender">   
+    </div>
+    <br>
+    <div>
+        <label for="city">select your city</label>
+    </div>
+     <br>
+     <div>
+        <select name="ciity" id="city" required>
+            <option value="none"></option>
+            <option value="Mumbai">mumbai</option>
+            <option value="Pune">Pune</option>
+            <option value="Dhule">Dhule</option>
+            <option value="Nagpur">Nagpur</option>
+        </select>
+     </div>
+     <br>
+     <div>
+        <label for="pin">enter your Pincode</label>
+        <input type="tel" maxlength="6">
+     </div>
+     <div>
+        <input type="checkbox">
+        <label for="">i aceept the all <a href="https://www.google.com"> terms and conditions </a></label>
+     </div>
+     <br>
+     <div>
+        <input type="submit" value="submit form">
+        &nbsp
+        <input type="reset" value="reset form">
+     </div>
+     <br>
+     <div>
+        <details>
+            <summary>need help?</summary>
+            <option value="">forgotte password?</option>
+            <option value="">other login issues?</option>
+        </details>
+     </div>
+   </div>
+   </form> 
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        thead,tfoot{
+            text-transform: capitalize;
+            font-size: medium;
+            font-weight: bolder;
+            background-color: antiquewhite;
+      
+      
+        }
+        tbody,caption{
+            text-transform: capitalize;
+            background-color: bisque;
+            font-size: x-large;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <table border="1" cellpadding="10px" cellspacing="20px">
+        <caption>final list of shortlisted candidates</caption>
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>salary</th>
+                <th>designation</th>
+                <th>company</th>
+                <th >experience</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>vishal</td>
+                <td>87000</td>
+                <td>jr.full stack developer</td>
+                <td>tcs</td>
+                <td rowspan="6">fresher</td>
+            </tr>
+            <tr>
+                <td>veer</td>
+                <td>77000</td>
+                <td>jr.python developer</td>
+                <td>tcs</td>
+            </tr>
+            <tr>
+                <td>samir</td>
+                <td>57000</td>
+                <td>jr. java developer</td>
+                <td>tcs</td>
+            </tr>
+            <tr>
+                <td>om</td>
+                <td>57000</td>
+                <td>jr.react developer</td>
+                <td>tcs</td>
+            </tr>
+            <tr>
+                <td>veer</td>
+                <td>77000</td>
+                <td>jr.sql developer</td>
+                <td>tcs</td>
+            </tr>
+            <tr>
+                <td>stuti</td>
+                <td>79000</td>
+                <td>sr.python developer</td>
+                <td>tcs</td>
+            </tr>
+            
+        
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5">end of the list of shortlisted candidates</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

@@ -1,0 +1,17 @@
+.accordian-item{
+    margin-bottom: 10px;
+}
+.accordian-header{
+padding: 5px;
+background-color: #f0f0f0;
+cursor: pointer;
+margin: 10px;
+}
+.accordian-content{
+    max-height: 0;
+    overflow: hidden;
+    transition:max-height 1s ease-in-out;
+}
+.accordian-header:hover+.accordian-content{
+    max-height: 50px;
+}
